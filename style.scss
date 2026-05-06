@@ -14,22 +14,22 @@
 /**************/
 
 /*
- * Thamania font setup
+ * Thmanyah Sans font setup
  * Add your font files under: /fonts/
- * - fonts/Thamania-Regular.woff2
- * - fonts/Thamania-Bold.woff2
+ * - fonts/thmanyahsans-Regular.woff2
+ * - fonts/thmanyahsans-Bold.woff2
  */
 @font-face {
-  font-family: "Thamania";
-  src: url("{{ site.baseurl }}/fonts/Thamania-Regular.woff2") format("woff2");
+  font-family: "Thmanyah Sans";
+  src: url("{{ site.baseurl }}/fonts/thmanyahsans-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Thamania";
-  src: url("{{ site.baseurl }}/fonts/Thamania-Bold.woff2") format("woff2");
+  font-family: "Thmanyah Sans";
+  src: url("{{ site.baseurl }}/fonts/thmanyahsans-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -85,7 +85,7 @@ html {
 }
 
 body {
-  font-family: "Thamania", sans-serif;
+  font-family: "Thmanyah Sans", sans-serif;
   display: flex;
   min-height: 100%;
   flex-direction: column;
