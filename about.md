@@ -1,9 +1,8 @@
 ---
 layout: page
-title: من أنا
+title: حسين صالح
 permalink: /about/
 ---
-### حسين صالح
 باحث ومهندس ذكاء اصطناعي | ماجسيتير علوم حاسوب | متحدث في TedX وGDGsc 
 
 
@@ -13,4 +12,4 @@ permalink: /about/
 
 ### لمراسلتي
 
-[email@domain.com](mailto:hussainsalih.github@gmail.com)
+[hussainsalih.github@gmail.com](mailto:hussainsalih.github@gmail.com)
