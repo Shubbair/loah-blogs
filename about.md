@@ -4,7 +4,7 @@ title: حسين صالح
 permalink: /about/
 ---
 
-![Profile Image](images/profile.png)
+<img src="images/profile.png" alt="Profile Image" style="width:50%;" />
 باحث ومهندس ذكاء اصطناعي | ماجسيتير علوم حاسوب | متحدث في TedX وGDGsc 
 
 
