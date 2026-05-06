@@ -353,9 +353,9 @@ nav {
 
 .wrapper-footer {
   margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  border-top: 1px solid rgba(109, 92, 73, 0.25);
+  border-bottom: 1px solid rgba(109, 92, 73, 0.25);
+  background-color: transparent;
 }
 
 footer {
@@ -363,6 +363,13 @@ footer {
   text-align: center;
 }
 
+.footer a {
+  color: #6D5C49;
+}
+
+.footer a:hover {
+  color: $blue;
+}
 
 //
 // FOUT fonts
