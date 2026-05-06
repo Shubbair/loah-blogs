@@ -20,7 +20,7 @@ permalink: /about/
 
 <img src="/images/profile.png" alt="profile image" class="about-profile-image" />
 
-باحث ومهندس ذكاء اصطناعي | ماجسيتير علوم حاسوب | متحدث في TedX وGDGsc 
+باحث ومهندس ذكاء اصطناعي , متحدث في TedX وGDGsc 
 
 
 ### الاهتمامات
