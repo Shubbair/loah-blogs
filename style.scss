@@ -221,7 +221,7 @@ blockquote {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid #6D5C49;
+  border-bottom: 1px solid $lightGray;
 
   @include mobile {
     text-align: center;
