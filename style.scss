@@ -371,6 +371,38 @@ footer {
   color: $blue;
 }
 
+// Footer icon images (GitHub / LinkedIn)
+.footer-icon {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  margin: 0 8px;
+  padding: 6px;
+
+  // Make icons pop against the warm #FDEFD7 background
+  background: rgba(109, 92, 73, 0.12);
+  border: 1px solid rgba(109, 92, 73, 0.25);
+  border-radius: 12px;
+
+  // If the PNG has its own background, keep it clean
+  object-fit: contain;
+
+  // Interaction
+  transition: transform 150ms ease, background-color 150ms ease, box-shadow 150ms ease;
+}
+
+.footer a:hover .footer-icon,
+.footer a:focus .footer-icon {
+  background: rgba(109, 92, 73, 0.18);
+  box-shadow: 0 6px 18px rgba(109, 92, 73, 0.22);
+  transform: translateY(-1px);
+}
+
+.footer a:active .footer-icon {
+  transform: translateY(0);
+  box-shadow: 0 3px 10px rgba(109, 92, 73, 0.18);
+}
+
 //
 // FOUT fonts
 //
