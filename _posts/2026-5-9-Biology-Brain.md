@@ -3,9 +3,7 @@ layout: Biology Brain
 title: ذكاء بايلوجي 
 ---
 
-# ذكاء الاصطناعي في خلية طبيعية
-
-![dd](/images/neuronchip.jpg)
+![dd](/images/neuronchip.jpg)<!-- {"width":"50%"} -->
 
 هل ممكن برمجة خلايا دماغ حقيقية وبناء ذكاء بيولوجي ؟
 
