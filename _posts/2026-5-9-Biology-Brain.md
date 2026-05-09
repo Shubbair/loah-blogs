@@ -44,7 +44,7 @@ title: ذكاء بايلوجي
 اضافة إلى فائدته في  (إكتشاف الأدوية ، أبحاث علم الاعصاب ، بناء ذكاء اصطناعي تكيفي).
 
 - [1] [Power-hungry AI: This is how much Chat GPT is said to have used](https://www.bayern-innovativ.de/en/emagazine/detail/power-hungry-ai-this-is-how-much-chat-gpt-is-said-to-have-used)
-- [2] https://interestingengineering.com/innovation/training-chatgpt-consumes-water
+- [2] [chatGPT3 power consume](https://interestingengineering.com/innovation/training-chatgpt-consumes-water)
 - [3] [Sam Altman claims an average ChatGPT query uses ‘roughly one fifteenth of a teaspoon’ of water](https://www.theverge.com/news/685045/sam-altman-average-chatgpt-energy-water)
 - [4] [Cortical Labs](https://corticallabs.com/)
 - [5] [Brain Cell on Chip](https://www.rsv.org.au/articles/brain-cells-on-a-microchip)                                              
