@@ -10,6 +10,7 @@ permalink: /about/
     float: right;
     width: 50%;
     margin: 0 0 1rem 1rem;
+    border-radius: 50%;
   }
 
   /* Clear floats so following content doesn't wrap unexpectedly */
