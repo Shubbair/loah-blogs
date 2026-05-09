@@ -30,6 +30,6 @@ permalink: /about/
 
 ### لمراسلتي
 
-[hussainsalih.github@gmail.com](mailto:hussainsalih.github@gmail.com)
+[البريد الالكتروني](mailto:hussainsalih.github@gmail.com)
 
 <div class="about-clear"></div>
