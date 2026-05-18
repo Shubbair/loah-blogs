@@ -6,7 +6,6 @@ title: الذكاء المكاني
 
 على الرغم من التطور الملحوظ من النماذج اللغوية في الانتاجية والابداع من الكتابة ، الكود ، توليد الصور وتوليد المقاطع الفيديوية . فهو منفصل عن العالم الفيزيائي (هو يوصف الواقع ولكن ليس لديه فهم حقيقي للمكان ، الحركة والفيزياء).
 
-## الذكاء المكاني
 طرحت الباحثة والعالمة **في-في-لي** “الذكاء المكاني” وتتكلم في مقال لها عن هذا الموضوع كيف ان مسيرة حياتها كانت تتعلق بإمكانية تطوير الرؤية للذكاء الاصطناعي بتجميع اكبر بيانات صور ImageNet مكونة من 14 مليون صورة و10,000نوع.
  
 ![imagenet](images/imagenet.png){: width="50%"}
@@ -44,5 +43,5 @@ title: الذكاء المكاني
 
 
 
-١. [Spacial Intelligence](https://drfeifei.substack.com/p/from-words-to-worlds-spatial-intelligence)
-٢. [World Labs](https://www.worldlabs.ai/)
+1. [Spacial Intelligence](https://drfeifei.substack.com/p/from-words-to-worlds-spatial-intelligence)
+2. [World Labs](https://www.worldlabs.ai/)
