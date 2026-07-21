@@ -34,4 +34,4 @@ title: تعليم كلود السببية (لماذا ؟)
 ام فقط استدل من خلال توزيع احتمالي على نهي الكلام عن موضوع معين ؟
 
 مصدر المقالة : 
-- [عليم كلود لماذا ؟](https://www.anthropic.com/research/teaching-claude-why)
+- [تعليم كلود لماذا ؟](https://www.anthropic.com/research/teaching-claude-why)
