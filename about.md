@@ -19,7 +19,7 @@ permalink: /about/
   }
 </style>
 
-<img src="/images/profile.png" alt="profile image" class="about-profile-image" />
+<img src="{{ site.baseurl }}/images/profile.png" alt="profile image" class="about-profile-image" />
 
 باحث ومهندس ذكاء اصطناعي , متحدث في TedX وGDGsc 
 
