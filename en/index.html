@@ -5,9 +5,16 @@ permalink: /en/
 lang: en
 ---
 
-Welcome to the English section of the AI Board.
+<div class="en">
+  {% for post in site.posts %}
+    <article class="en">
+      <h1><a href="{{ en.baseurl }}{{ en.url }}">{{ post.title }}</a></h1>
 
-Most published articles are currently available in Arabic.
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
 
-- Read the Arabic blog posts: [Go to Arabic homepage]({{ site.baseurl }}/)
-- Learn more about the author: [About]({{ site.baseurl }}/en/about)
+      <a href="{{ en.baseurl }}{{ en.url }}" class="read-more">اكمل القراءة</a>
+    </article>
+  {% endfor %}
+</div>
