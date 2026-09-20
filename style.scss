@@ -208,7 +208,7 @@ blockquote {
 }
 
 // Nicolas Gallagher's micro clearfix hack
-// http://nicolasgallagher.com/micro-clearfix-hack/
+// http://nicolasgallagher.com/ micro-clearfix-hack/
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -306,6 +306,43 @@ nav {
     @include mobile {
       margin: 0 10px;
       color: $blue;
+    }
+  }
+}
+
+// Mirror the desktop masthead for English pages. The mobile layout remains
+// centered for both languages.
+html[dir="ltr"] {
+  .site-avatar {
+    float: left;
+    margin-left: 0;
+    margin-right: 15px;
+  }
+
+  .site-info {
+    float: left;
+  }
+
+  nav {
+    float: right;
+
+    a {
+      margin-right: 0;
+      margin-left: 20px;
+      text-align: right;
+    }
+  }
+
+  @include mobile {
+    .site-avatar,
+    .site-info,
+    nav {
+      float: none;
+    }
+
+    nav a {
+      margin: 0 10px;
+      text-align: center;
     }
   }
 }
