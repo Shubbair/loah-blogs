@@ -92,6 +92,11 @@ html[dir="ltr"] {
   direction: ltr;
 }
 
+html[dir="rtl"] ul,
+html[dir="rtl"] ol {
+  padding-right: 30px;
+}
+
 body {
   font-family: "Thmanyah Sans", sans-serif;
   display: flex;
