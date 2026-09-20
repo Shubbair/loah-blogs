@@ -1,20 +1,21 @@
 ---
 layout: page
-title: Welcome
+title: English articles
 permalink: /en/
 lang: en
 ---
 
-<div class="en">
-  {% for post in site.posts %}
-    <article class="en">
-      <h1><a href="{{ en.baseurl }}{{ en.url }}">{{ post.title }}</a></h1>
+<div class="posts">
+  {% assign english_posts = site.posts | where: "lang", "en" %}
+  {% for post in english_posts %}
+    <article class="post">
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
         {{ post.excerpt }}
       </div>
 
-      <a href="{{ en.baseurl }}{{ en.url }}" class="read-more">اكمل القراءة</a>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read more</a>
     </article>
   {% endfor %}
 </div>
