@@ -1,7 +1,15 @@
 <!DOCTYPE html>
-<html>
+{% assign current_lang = page.lang | default: "ar" %}
+{% if current_lang == "en" %}
+  {% assign localized_site_name = "AI Board" %}
+  {% assign localized_site_description = "Ideas | Theories | Articles" %}
+{% else %}
+  {% assign localized_site_name = site.name %}
+  {% assign localized_site_description = site.description %}
+{% endif %}
+<html dir="{% if current_lang == 'en' %}ltr{% else %}rtl{% endif %}">
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ localized_site_name }} – {{ localized_site_description }}</title>
 
     {% include meta.html %}
 
@@ -22,22 +30,29 @@
     <!-- Created with Arabic Jekyll - http://github.com/a3ammar/arabic-jekyll -->
   </head>
 
-  <body lang="ar">
+  <body lang="{{ current_lang }}">
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
           {% if site.avatar %}
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+          <a href="{% if current_lang == 'en' %}{{ site.baseurl }}/en/{% else %}{{ site.baseurl }}/{% endif %}" class="site-avatar"><img src="{{ site.avatar }}" /></a>
           {% endif %}
 
           <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1></br>
-            <p class="site-description">{{ site.description }}</p>
+            <h1 class="site-name"><a href="{% if current_lang == 'en' %}{{ site.baseurl }}/en/{% else %}{{ site.baseurl }}/{% endif %}">{{ localized_site_name }}</a></h1></br>
+            <p class="site-description">{{ localized_site_description }}</p>
           </div>
 
           <nav>
-            <a href="{{ site.baseurl }}/">المدونة</a>
-            <a href="{{ site.baseurl }}/about">من أنا</a>
+            {% if current_lang == "en" %}
+              <a href="{{ site.baseurl }}/en/">Blog</a>
+              <a href="{{ site.baseurl }}/en/about">About</a>
+              <a href="{{ site.baseurl }}/">العربية</a>
+            {% else %}
+              <a href="{{ site.baseurl }}/">المدونة</a>
+              <a href="{{ site.baseurl }}/about">من أنا</a>
+              <a href="{{ site.baseurl }}/en/">English</a>
+            {% endif %}
           </nav>
         </header>
       </div>
